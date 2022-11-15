@@ -27,12 +27,12 @@ pygmentsUseClasses = true
     url = "/"
     weight = 10
 
-  [[menu.main]]
-    identifier = "slides"
-    name = "slides"
-    title = "slides"
-    url = "/slides/"
-    weight = 30
+  # [[menu.main]]
+  #   identifier = "slides"
+  #   name = "slides"
+  #   title = "slides"
+  #   url = "/slides/"
+  #   weight = 30
 
 
 
