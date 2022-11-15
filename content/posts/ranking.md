@@ -1,8 +1,18 @@
----
-title: "ICLR 2023 - RankCSE, Jensen-Shannon Divergence"
-date: 2022-11-12T17:13:06-06:00
-draft: false
----
++++
+author = "Sachin Chanchani"
+title = "ICLR 2023 - RankCSE, Jensen-Shannon Divergence"
+date = "2022-11-12T17:13:06-06:00"
+description = "Stuff I took away from RankCSE and need to implement"
+tags = [
+    "sentence-embeddings",
+    "iclr-2023"
+]
+categories = [
+    "paper",
+    "nlp"
+]
+series = ["NLP"]
++++
 
 [Original Paper](https://openreview.net/pdf?id=y_sZyxuuFh3)
 
