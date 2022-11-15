@@ -1,0 +1,51 @@
+baseURL = "https://perceptiveshawty.github.io"
+title = "Sachin Chanchani"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = ""
+  copyright = "Copyright © 2022 Sachin Chanchani"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "slides"
+    name = "slides"
+    title = "slides"
+    url = "/slides/"
+    weight = 30
+
+
+
+  # [[menu.main]]
+  #   identifier = "pics"
+  #   name = "pics"
+  #   title = "pics"
+  #   url = "/pics/"
+  #   weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
