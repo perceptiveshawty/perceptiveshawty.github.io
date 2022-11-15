@@ -13,4 +13,4 @@ Currently, my research is focused on unsupervised contrastive learning for text 
 
 Prior to university, I graduated with an IB diploma from the [American School of Bombay](https://www.asbindia.org/). I spent most of my 4 years in Mumbai playing basketball, training year-round with Indian professionals and deployed US marines. I served as captain of the varsity basketball team and assistant coach for the middle school teams as an upperclassman. In 2019, we won the regional [SAISA](https://en.wikipedia.org/wiki/SAISA) basketball tournament and I received the Athlete of the Year award.
 
-Here is a link to my [resume](https://drive.google.com/file/d/1Jgb8mXBJ91tVkdrA7QssKD0uozP9t8VI/view?usp=sharing). This site serves as a record of  soft thinking on research papers, books, art, and other experiences.
+Here is a link to my [resume](https://drive.google.com/file/d/1Jgb8mXBJ91tVkdrA7QssKD0uozP9t8VI/view?usp=sharing). This site serves to record soft thinking on research papers, books, art, and other experiences.
