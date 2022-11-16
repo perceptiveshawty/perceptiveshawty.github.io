@@ -27,6 +27,13 @@ pygmentsUseClasses = true
     url = "/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "notes"
+    name = "notes"
+    title = "notes"
+    url = "/notes/"
+    weight = 30
+
   # [[menu.main]]
   #   identifier = "slides"
   #   name = "slides"
@@ -46,6 +53,13 @@ pygmentsUseClasses = true
 [permalinks]
   posts = "/:title/"
 
-[markup.goldmark.renderer]
-  # Allows HTML in Markdown
-  unsafe = true
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
+  [markup.goldmark.renderer]
+    # Allows HTML in Markdown
+    unsafe = true
+
