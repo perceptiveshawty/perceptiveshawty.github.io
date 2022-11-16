@@ -6,7 +6,7 @@ title: ""
 I'm a senior at Texas A&M University studying computer science, math and neuroscience. I work closely with <a href="https://people.engr.tamu.edu/huangrh/index.html">Ruihong Huang</a> and the TAMU NLP Group. Outside of school, I contribute to
 SBIR project implementations at <a href="https://www.lynntech.com/intelsys/">Lynntech</a>, broadly focused on computer vision and generative modeling in non-visible imagery.
 
-My long-term research interests are in representation and metric learning. I'm particularly interested in studying biologically-plausible algorithms for real-time storage and retrieval of multi-modal information.
+My long-term research interests are in representation and metric learning. I'm particularly interested in biologically-plausible algorithms for real-time storage and retrieval of multi-modal information.
 
 Right now, my research is focused on contrastive learning for text embeddings. At Lynntech, I am working on an end-to-end pipeline for synthesizing novel views of radar imagery. I wrote my honors [thesis](https://drive.google.com/file/d/1vhY7HGVpswPK8mUWngmEGSMmgNNUfxXh/view) on linguistic cues in legal documents that are useful for persuasive intent recognition.
 
