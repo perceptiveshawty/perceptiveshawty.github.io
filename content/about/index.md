@@ -12,4 +12,4 @@ Right now, my research is focused on contrastive learning for text embeddings. A
 
 Prior to university, I attended the [American School of Bombay](https://www.asbindia.org/). I spent most of my time in Mumbai playing basketball, training year-round with Indian professionals and deployed US marines. I served as captain of the varsity basketball team and assistant coach for the middle school teams as an upperclassman. In 2019, we won the regional [SAISA](https://en.wikipedia.org/wiki/SAISA) basketball tournament and I received the Athlete of the Year award.
 
-Here is a link to my [resume](https://drive.google.com/file/d/1Jgb8mXBJ91tVkdrA7QssKD0uozP9t8VI/view?usp=sharing). This site is a record my notes and soft thinking on research papers, coursework, books, and art. 
+Here is a link to my [resume](https://drive.google.com/file/d/1Jgb8mXBJ91tVkdrA7QssKD0uozP9t8VI/view?usp=sharing). This site is a record of my notes and soft thinking on research papers, coursework, books, and art. 
