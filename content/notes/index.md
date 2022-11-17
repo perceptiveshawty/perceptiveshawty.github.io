@@ -5,8 +5,8 @@ draft: false
 
 {{< toc >}}
 
-## Mathematics
-
+## Math
+---
 ### Set Theory, Boolean Logic, Proofs
 
 <br>
@@ -38,8 +38,8 @@ draft: false
 <embed src="/pdf/Differential Equations.pdf" width="100%" height=800px></embed>
 <br>
 
-## Psycholinguistics
-
+## Linguistics
+---
 ### Mood and Modality
 
 <br>
@@ -47,7 +47,7 @@ draft: false
 <br>
 
 ## Artificial Intelligence
-
+---
 ### Intro to ML with Pandas & Scikit-learn
 
 <br>
@@ -63,7 +63,7 @@ draft: false
 
 
 ## Physics
-
+---
 ### Mechanics
 
 <br>

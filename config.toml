@@ -1,6 +1,6 @@
 baseURL = "https://perceptiveshawty.github.io"
 title = "Sachin Chanchani"
-theme = "etch"
+theme =  "etch"
 languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
@@ -13,12 +13,6 @@ pygmentsUseClasses = true
   highlight = true
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "about"
-    url = "/about/"
-    weight = 30
 
   [[menu.main]]
     identifier = "posts"
@@ -33,6 +27,13 @@ pygmentsUseClasses = true
     title = "notes"
     url = "/notes/"
     weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 30
 
   # [[menu.main]]
   #   identifier = "slides"
