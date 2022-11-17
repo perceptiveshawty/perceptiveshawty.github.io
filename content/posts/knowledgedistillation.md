@@ -1,6 +1,6 @@
 +++
 author = "Sachin Chanchani"
-title = "Self-Knowledge Distillation via Dropout"
+title = "Self-knowledge distillation with dropout"
 date = "2022-11-16T17:13:06-06:00"
 description = "Self-knowledge distillation with no add'l cost"
 tags = [
