@@ -1,21 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sentence-embeddings on Sachin Chanchani</title><link>https://perceptiveshawty.github.io/tags/sentence-embeddings/</link><description>Recent content in sentence-embeddings on Sachin Chanchani</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 12 Nov 2022 17:13:06 -0600</lastBuildDate><atom:link href="https://perceptiveshawty.github.io/tags/sentence-embeddings/index.xml" rel="self" type="application/rss+xml"/><item><title>ICLR 2023 - RankCSE, Jensen-Shannon Divergence</title><link>https://perceptiveshawty.github.io/iclr-2023-rankcse-jensen-shannon-divergence/</link><pubDate>Sat, 12 Nov 2022 17:13:06 -0600</pubDate><guid>https://perceptiveshawty.github.io/iclr-2023-rankcse-jensen-shannon-divergence/</guid><description>&lt;p>&lt;a href="https://openreview.net/pdf?id=y_sZyxuuFh3">Original Paper&lt;/a>&lt;/p>
-&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sentence-embeddings on Sachin Chanchani</title><link>https://perceptiveshawty.github.io/tags/sentence-embeddings/</link><description>Recent content in sentence-embeddings on Sachin Chanchani</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 12 Nov 2022 17:13:06 -0600</lastBuildDate><atom:link href="https://perceptiveshawty.github.io/tags/sentence-embeddings/index.xml" rel="self" type="application/rss+xml"/><item><title>Self-Knowledge Distillation via Dropout</title><link>https://perceptiveshawty.github.io/self-knowledge-distillation-via-dropout/</link><pubDate>Wed, 16 Nov 2022 17:13:06 -0600</pubDate><guid>https://perceptiveshawty.github.io/self-knowledge-distillation-via-dropout/</guid><description>&lt;p>&lt;a href="https://arxiv.org/pdf/2208.05642.pdf">Original Paper&lt;/a>&lt;/p>
+&lt;p>Self-knowledge distillation sounds like circular logic but it isn&amp;rsquo;t. It is essentially a clever way of splitting a model into an ensemble, where each member model receives a different, independent persepctive of the input during training. In computer vision, &amp;ldquo;perspectives&amp;rdquo; can be created with crops, distortions, and a host of other transforms (well documented in &lt;a href="https://arxiv.org/abs/2002.05709">SimCLR&lt;/a>); in NLP typically just token-level dropout is used. In any case, ensembling the hidden layer embeddings (or logits) from each member model leads to smoother, wider loss minima, and consequently faster training.&lt;/p>
+&lt;p>See also:&lt;/p>
+&lt;p>&lt;a href="https://arxiv.org/pdf/2102.13042.pdf">Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://arxiv.org/pdf/1803.05407.pdf">Averaging Weights Leads to Wider Optima and Better Generalization&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://arxiv.org/pdf/2102.10472.pdf">Learning Neural Network Subspaces&lt;/a>&lt;/p>
+&lt;figure>&lt;img src="https://perceptiveshawty.github.io/img/kd.png"
+alt="SD-Dropout overview" width="100%"/>&lt;figcaption>
+&lt;p>SD-Dropout overview&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>ICLR 2023 - RankCSE, Jensen-Shannon Divergence</title><link>https://perceptiveshawty.github.io/iclr-2023-rankcse-jensen-shannon-divergence/</link><pubDate>Sat, 12 Nov 2022 17:13:06 -0600</pubDate><guid>https://perceptiveshawty.github.io/iclr-2023-rankcse-jensen-shannon-divergence/</guid><description>&lt;p>&lt;a href="https://openreview.net/pdf?id=y_sZyxuuFh3">Original Paper&lt;/a>&lt;/p>
 &lt;figure>&lt;img src="https://perceptiveshawty.github.io/img/rankcse1.png"
-alt="RankCSE system overview" width="500px"/>&lt;figcaption>
+alt="RankCSE system overview" width="80%"/>&lt;figcaption>
 &lt;p>RankCSE system overview&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;br>
-&lt;!-- &lt;img src="https://perceptiveshawty.github.io/img/rankcse.png" width="400px"> -->
 &lt;p>RankCSE improves upon &lt;a href="https://arxiv.org/abs/2204.10298">DiffCSE&lt;/a>, &lt;a href="https://arxiv.org/abs/2104.08821">SimCSE&lt;/a> and &lt;a href="https://github.com/Doragd/Awesome-Sentence-Embedding">the like&lt;/a> in unsupervised learning of sentence embeddings by introducing ranking distillation &amp;amp; consistency to the classic contrastive training objective. It works well becauses it addresses the largest weakness of the &lt;a href="https://paperswithcode.com/method/nt-xent">NT-Xent Loss&lt;/a> - there is no mechanism to capture how &amp;ldquo;relatively positive&amp;rdquo; each negative should be, or the distinction between in-batch negatives.&lt;/p>
 &lt;!-- (and [RankEncoder](https://openreview.net/pdf?id=g77JafrHWyy)) -->
 &lt;p>In contrast to the pointwise approach, RankCSE distills ranking knowledge from a teacher by minimizing the cross entropy loss between the student/teacher top-1 probability distributions of sentence similarity lists. In addition, they introduce another loss term, which presumably smooths the loss landscape for the student model:&lt;/p>
-&lt;br>
 &lt;figure>&lt;img src="https://perceptiveshawty.github.io/img/rankcse.png"
-alt="Ranking consistency by minimizing Jensen-Shannon Divergence" width="600px"/>&lt;figcaption>
+alt="Ranking consistency by minimizing Jensen-Shannon Divergence" width="80%"/>&lt;figcaption>
 &lt;p>Ranking consistency by minimizing Jensen-Shannon Divergence&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;br>
 &lt;p>Code that I want to make use of:&lt;/p>
 &lt;script type="application/javascript" src="https://gist.github.com/perceptiveshawty/4b6086ef1aae8cb4b29380e30d096219.js">&lt;/script></description></item></channel></rss>
