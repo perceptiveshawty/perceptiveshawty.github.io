@@ -15,9 +15,9 @@ series = ["NLP"]
 
 [Original Paper](https://openreview.net/forum?id=0z_cXcu1N6o)
 
-The hippocampus is an area of the brain that is essential for consolidation and retrieval of long term memories, as well as spatial memory used in navigation tasks. Studying the organ in humans and animals led to the discovery of the place cell, which kind of resembles the function of nonlinear activations in neural networks.
+The hippocampus in animals is essential to consolidation and retrieval of long term memories, as well as spatial memory used in navigation tasks. Studying this part of the brain led to the discovery of place cells, which kind of resemble the function of nonlinear activations in neural networks.
 
-Place cells act collectively to form place fields [think feature maps in convolutional neural networks]. Their firing-patterns correlate strongly with environmental stimuli like familiar visual, olfactory, and vestibular cues. In one experiment with rats in a maze, place cells were recorded and each cell gave rise to its own mode in the recorded action potentials. The modes were distinguished only by the rat's position in the maze.  
+Place cells act collectively to form place fields [think feature maps in convolutional neural networks]. Their firing-patterns correlate strongly with environmental stimuli like familiar visual, olfactory, and vestibular cues. In [an experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6672960/) with rats in a maze, place cells were recorded and each cell gave rise to its own mode in the recorded action potentials. The modes were distinguished only by the rat's position in the maze.  
 
 {{< figure src="/img/nmdar2.png" caption="Current-voltage dynamics of the NMDAR IV with varying levels of magnesium ions. We can observe an increase in this blockade of ions correlates with smaller activations in the negative direction. It closely resembles the GELU activation function, which leaks a small negative gradient for negative inputs." width="35%" >}}
 

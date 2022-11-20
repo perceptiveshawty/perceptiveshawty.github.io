@@ -15,7 +15,7 @@ series = ["NLP"]
 
 [Original Paper](https://arxiv.org/pdf/2208.05642.pdf)
 
-Self-knowledge distillation sounds like circular logic but it isn't. It is essentially a clever way of splitting a model into an ensemble, where each member model receives a different, independent persepctive of the input during training. In computer vision, "perspectives" can be created with crops, distortions, and a host of other transforms (well documented in [SimCLR](https://arxiv.org/abs/2002.05709)); in NLP typically just token-level dropout is used. In any case, ensembling the hidden layer embeddings (or logits) from each member model leads to smoother, wider loss minima, and consequently faster training. 
+Self-knowledge distillation sounds like circular logic but it isn't. It is essentially a clever way of splitting a model into an ensemble, where each member model receives a different, independent perspective of the input during training. In computer vision, "perspectives" can be created with crops, distortions, and a host of other transforms (well documented in [SimCLR](https://arxiv.org/abs/2002.05709)); in NLP typically just token-level dropout is used. In both cases, ensembling the hidden layer weights from each member model can speed up training with a more stable loss function.  
 
 See also: 
 
