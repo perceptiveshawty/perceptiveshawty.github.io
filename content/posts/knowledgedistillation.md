@@ -15,7 +15,9 @@ series = ["NLP"]
 
 [Original Paper](https://arxiv.org/pdf/2208.05642.pdf)
 
-Self-knowledge distillation sounds like circular logic but it isn't. It is essentially a clever way of splitting a model into an ensemble, where each member model receives a different, independent perspective of the input during training. In computer vision, "perspectives" can be created with crops, distortions, and a host of other transforms (well documented in [SimCLR](https://arxiv.org/abs/2002.05709)); in NLP typically just token-level dropout is used. In both cases, ensembling the hidden layer weights from each member model can speed up training with a more stable loss function.  
+Self-knowledge distillation sounds like circular logic but it isn't. It is essentially a clever way of splitting a model into an ensemble, where each member model receives a different, independent perspective of the input during training. In computer vision, "perspectives" can be created with crops, distortions, and a host of other transforms (well documented in [SimCLR](https://arxiv.org/abs/2002.05709)); in NLP typically just token-level dropout is used. In both cases, ensembling the hidden layer weights from each member model can speed up training with a more stable loss function. 
+
+The main reason for this is that most model architectures in deep learning are over-parameterized, and for a given downstream task, only a small fraction of the parameters are actually needed to achieve the desired performance. For [example](https://arxiv.org/pdf/2012.13255.pdf), only about 200 trainable parameters are needed to recover 90% of the performance on the heavily cited [MRPC](https://www.microsoft.com/en-us/download/details.aspx?id=52398) task.
 
 See also: 
 
