@@ -1,1 +1,1 @@
-# perceptiveshawty.github.io
+This site is adapted from <a href="https://nelhage.com">Nelson Elhage</a>.

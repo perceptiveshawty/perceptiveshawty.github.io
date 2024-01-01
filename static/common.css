@@ -1,0 +1,23 @@
+#header {
+    padding-bottom: 1em;
+    margin: auto;
+    text-align: center;
+ }
+
+ h2,h3 {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+ }
+
+ #content {
+    width: 40em;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+ }
+
+ body {
+    background-color: #ebebed;
+ }
