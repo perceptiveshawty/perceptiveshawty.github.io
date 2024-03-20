@@ -1,3 +1,11 @@
+/* Berkeley Font */
+@font-face {
+   font-family: 'berkeley';
+   src: url('../public/berkeley-updated.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
 #header {
     padding-bottom: 1em;
     margin: auto;
@@ -20,4 +28,5 @@
 
  body {
     background-color: #ebebed;
+    font-family: 'berkeley';
  }
